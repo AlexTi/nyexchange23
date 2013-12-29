@@ -1,5 +1,5 @@
-# Bitcoin Central
-Bitcoin Central powers bitcoin-central.net, a bitcoin trading platform. It is :
+# NY EXCHANGE
+
 
 * Open Source,
 * Based on Ruby on Rails,
@@ -32,11 +32,11 @@ Linux and Windows setup work well, I found the easiest to be an Ubuntu install
 * Fork project if relevant
 * Check out sources with git
 
-        $ git clone https://github.com/davout/bitcoin-central.git
+        $ git clone https://github.com/Dpennant/nyexchange23.git
 
 * Get into the sources directory
 
-        $ cd bitcoin-central
+        $ cd NYEXCHANGE23
 
 * Compile and install the required dependencies
 
