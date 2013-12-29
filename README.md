@@ -97,3 +97,7 @@ Bitcoin-Central was, and is currently being developed with the following musical
 
 # License
 AGPL License. Copyright 2010-2011 David FRANCOIS
+
+
+
+![NYEXCHANGE23 status](https://www.codeship.io/projects/9b5a1eb0-5255-0131-2525-2e8666165250/status)
