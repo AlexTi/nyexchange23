@@ -41,8 +41,8 @@ gem 'blueprint-rails'
 gem 'bourbon'
 
 # File attachment with database storage support
-gem 'paperclip', 
-  :git => 'https://github.com/patshaughnessy/paperclip.git'
+gem 'paperclip'
+  
 
 # Apple push notifications
 gem 'apn_on_rails',
