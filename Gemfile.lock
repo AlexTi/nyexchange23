@@ -12,16 +12,6 @@ GIT
     apn_on_rails (0.3.1rails3)
       configatron
 
-GIT
-  remote: https://github.com/patshaughnessy/paperclip.git
-  revision: c295bc4e78b84044296f3a03157c097b50161bc5
-  specs:
-    paperclip (2.4.5)
-      activerecord (>= 2.3.0)
-      activesupport (>= 2.3.2)
-      cocaine (>= 0.0.2)
-      mime-types
-
 GEM
   remote: http://rubygems.org/
   specs:
@@ -72,7 +62,10 @@ GEM
       net-ssh-gateway (>= 1.1.0)
     chronic (0.6.6)
     chunky_png (1.2.5)
-    cocaine (0.2.1)
+    climate_control (0.0.3)
+      activesupport (>= 3.0)
+    cocaine (0.5.3)
+      climate_control (>= 0.0.3, < 1.0)
     coffee-rails (3.1.1)
       coffee-script (>= 2.2.0)
       railties (~> 3.1.0)
@@ -124,6 +117,11 @@ GEM
     net-ssh-gateway (1.1.0)
       net-ssh (>= 1.99.1)
     orm_adapter (0.0.5)
+    paperclip (3.5.2)
+      activemodel (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      cocaine (~> 0.5.3)
+      mime-types
     polyglot (0.3.3)
     qrencoder (1.4.0)
       chunky_png (~> 1.1)
@@ -207,7 +205,7 @@ DEPENDENCIES
   jquery-rails
   mocha
   mysql2
-  paperclip!
+  paperclip
   qrencoder
   rails (= 3.1.3)
   rake
