@@ -4,8 +4,8 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 
 if defined?(Bundler)
-  Bundler.require(:default, Rails.env)
   Bundler.require(*Rails.groups(:assets => %w(development, test)))
+  Bundler.require(:default, Rails.env)
 end
 
 module BitcoinBank

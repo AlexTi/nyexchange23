@@ -1,5 +1,7 @@
 source 'http://rubygems.org'
 
+ruby '2.0.0'
+
 gem 'rails', '3.1.3'
 gem 'rake'
 gem 'mysql2'
@@ -42,7 +44,7 @@ gem 'bourbon'
 
 # File attachment with database storage support
 gem 'paperclip'
-  
+
 
 # Apple push notifications
 gem 'apn_on_rails',
