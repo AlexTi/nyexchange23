@@ -45,12 +45,6 @@ gem 'bourbon'
 # File attachment with database storage support
 gem 'paperclip'
 
-
-# Apple push notifications
-gem 'apn_on_rails',
-  :git => 'https://github.com/natescherer/apn_on_rails.git',
-  :branch => 'rails3'
-
 group :test do
   gem 'mocha', :require => false
   gem 'factory_girl_rails'
