@@ -4,8 +4,8 @@ require File.expand_path('../boot', __FILE__)
 require 'rails/all'
 
 if defined?(Bundler)
-  Bundler.require(*Rails.groups(:assets => %w(development, test)))
   Bundler.require(:default, Rails.env)
+  Bundler.require(*Rails.groups(:assets => %w(development, test)))
 end
 
 module BitcoinBank
@@ -32,7 +32,7 @@ module BitcoinBank
 
     config.assets.enabled = true
     config.assets.version = '1.0'
-    
+
     Haml::Template.options[:ugly] = true
   end
 end
